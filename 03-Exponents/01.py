@@ -1,4 +1,4 @@
 from sympy import *
 x = symbols('x')
-f = x**2 + 1
-plot(f)
+expr = x**2 / x**5
+print(expr)
